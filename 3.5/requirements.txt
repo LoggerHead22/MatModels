@@ -1,0 +1,3 @@
+colorama
+pymorphy2
+requests
