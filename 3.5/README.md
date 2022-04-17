@@ -22,7 +22,27 @@
 	> ide test_script.rupy
 	> rupython test_script.rupy
 	> python test.py #запуск тестов
-  
+
+### Фичи RuPython
+
+Для грамматически более правильных конструкций, введён синтаксис `attribute@object`, эквивалентный `object.attribute`
+
+Например, `имя@человека` транслируется в `human.name`.
+
+Для ускорения транляции введен кэш, который сохраняет переводы слов. Это уменьшает число дорогостоящих запросов в google-translator.
+
+### Примеры тестовых программ
+
+![alt text](https://github.com/LoggerHead22/MatModels/blob/main/3.5/test_images/Screenshot_1.png?raw=true)
+
+![alt text](https://github.com/LoggerHead22/MatModels/blob/main/3.5/test_images/Screenshot_3.png?raw=true)
+
+![alt text](https://github.com/LoggerHead22/MatModels/blob/main/3.5/test_images/Screenshot_4.png?raw=true)
+
+![alt text](https://github.com/LoggerHead22/MatModels/blob/main/3.5/test_images/Screenshot_7.png?raw=true)
+
+Другие примеры можно найти в `test.py`
+
 ### Сопоставление ключевых слов
 
 | RuPython           | Python              |
@@ -138,4 +158,3 @@
 |\_\_сложение__        | \_\_add__             |
 
 
-### Примеры тестовых программ
