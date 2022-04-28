@@ -1,10 +1,10 @@
 ### Common Lisp Program
 
-	Вращающаяся сфера
+	Rotating sphere
 
-### Запуск скрипта
+### Run Script command
 
 	sbcl --script sphere.cl
 	
-	Для нормального отображения может быть необходимо выставить значения параметров weight и height под размеры окна консоли.
+For normal display, it may be necessary to set the values of the __weight__ and __height__ parameters to the size of the console window.
 	
